@@ -15,8 +15,7 @@ namespace EpicIntegrator
         {
             CloseActivities();
         }
-
-
+          
         static void CloseActivities()
         {
             List<int> ActivitiesCloseList = new List<int>();
