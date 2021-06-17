@@ -70,11 +70,6 @@ namespace EpicIntegrator
             Console.WriteLine("Act-Close Ended: " + ActCloseEnd);
 
 
-
-
-
-
-
             Console.ReadKey();
         }
     }

@@ -45,11 +45,6 @@ namespace EpicIntegrator
             oActResult = EpicSDKClient.Get_Activity(oMessageHeader, oActFilter, 0);
             act = oActResult.Activities[0];
 
-            //Console.WriteLine(act.Description);
-            //Console.WriteLine(act.StatusOption.Value);
-            //Console.WriteLine(act.CloseDetailValue.ClosedReason);
-            //Console.WriteLine(act.CloseDetailValue.ClosedStatus);
-            //Console.WriteLine(act.StatusOption.OptionName);
 
 
             
@@ -91,12 +86,7 @@ namespace EpicIntegrator
             Console.WriteLine("*-*-*");
 
 
-
         }
-
-
-
-
 
     }
 
